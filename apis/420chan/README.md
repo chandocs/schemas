@@ -1,14 +1,14 @@
-## channamehere
+## 420chan's API
 
 All URLs listed are clickable examples (watch for potentially NSFW content).
 
-Things listed in `code blocks` are arguments and can be changed.
+Portions of the URL listed in `code blocks` are arguments and can be changed.
 
-### Endpoints
+### Operations
 
-* http://`site`.`tld`/endpoint.json
+* **METHOD** http://`site`.`tld`/endpoint.json
   - Default API endpoint.
-* http://`site`.`tld`/board/`board_name`.json
+* **METHOD** http://`site`.`tld`/board/`board_name`.json
   - Lists threads from ``board``.
 
 ### Objects
