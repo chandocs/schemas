@@ -1,4 +1,4 @@
-## 4chan's API
+## 4chan's API ![](https://r3c0d3x.github.io/chan-apis/priority_shields/4chan.svg)
 
 All URLs listed are clickable examples (watch for potentially NSFW content).
 
