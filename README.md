@@ -12,8 +12,8 @@ Each API title is also a link to our documentation on it, and the priority shiel
   - Their documentation is detailed and lists example responses for each of their endpoints. It is good enough at the moment, but we should still have some documentation here for it in the future.
 * [4chan's API](apis/4chan/README.md) [![](https://r3c0d3x.github.io/chan-apis/priority_shields/4chan.svg)](https://github.com/4chan/4chan-api/)
   - While it does have some documentation, it's only for its `post` object. It lists multiple endpoints without going into detail about them, and doesn't seem to be updated very often.
-* [vichan's API](apis/vichan/README.md) [![](https://r3c0d3x.github.io/chan-apis/priority_shields/vichan.svg)](https://github.com/vichan-devel/vichan-API/)
-  - This has the same pitfalls of 4chan's API documentation because it's literally just a slightly modified fork of theirs. The lack of frequent updates is less important here though as we can at least tell when they change vichan's API, because vichan is open-source.
+* [vichan's API](apis/vichan/README.md) [![](https://r3c0d3x.github.io/chan-apis/priority_shields/vichan.svg)](https://github.com/vichan-devel/vichan-API/) (used by 8chan)
+  - This has the same pitfalls of 4chan's API documentation because it's literally just a slightly modified fork of theirs. The lack of frequent updates is less important here though as we can at least tell when vichan's API changes because [it's open source](https://github.com/vichan-devel/vichan/).
 
 ## License
 
