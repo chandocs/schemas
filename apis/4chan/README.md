@@ -29,4 +29,8 @@ Supported request methods are: **GET**, **HEAD**, **OPTIONS**
 
 ### Objects
 
-**TODO: write stuff here**
+* Board
+  - Contains information about a board.
+  - Used in:
+    * `/boards.json`
+* Post
