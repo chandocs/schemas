@@ -32,7 +32,7 @@ Supported request methods are: **GET**, **HEAD**, **OPTIONS**
 * **BASIC** [Board](objects/board.md)
   - Contains information about a board.
   - Used in:
-    * /boards.json
+    * **/boards.json**
 * **BASIC** [Post](objects/post.md)
   - Describes a post.
 * **COMPOUND** [Page](objects/page.md)
@@ -40,13 +40,13 @@ Supported request methods are: **GET**, **HEAD**, **OPTIONS**
   - Uses:
     * Thread
   - Used in:
-    * /`b`/catalog.json
-    * /`b`/threads.json
+    * **/`b`/catalog.json**
+    * **/`b`/threads.json**
 * **COMPOUND** [Thread](objects/thread.md)
   - Basically a list of posts.
   - Uses:
     * Post
   - Used in:
-    * /`b`/`n`.json
-    * /`b`/thread/`n`.json
-    * /`b`/catalog.json
+    * **/`b`/`n`.json**
+    * **/`b`/thread/`n`.json**
+    * **/`b`/catalog.json**
