@@ -1,1 +1,0 @@
-## Page [(4chan)](../README.md)

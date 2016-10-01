@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: 4chan API
+protocols: [ HTTP, HTTPS ]
+baseUri: https://a.4cdn.org/
+types:
+    Board: 
+        type: !include objects/board.json
+        description: A schema describing a JSON object for a 4chan board.
+    Post: 
+        type: !include objects/post.json
+        description: A schema describing a JSON object for a 4chan post.
+    Page: 
+        type: !include objects/page.json
+        description: A schema describing a JSON object for a 4chan board page.
+    Thread: 
+        type: !include objects/thread.json
+        description: A schema describing a JSON object for a 4chan thread.
+mediaType:  application/json
