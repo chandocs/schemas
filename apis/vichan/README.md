@@ -1,4 +1,4 @@
-## vichan's API ![](https://r3c0d3x.github.io/chan-apis/priority_shields/vichan.svg)
+## vichan's API ![](../../misc/priority_shields/vichan.svg)
 
 All URLs listed are clickable examples (watch for potentially NSFW content).
 
