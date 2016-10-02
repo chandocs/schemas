@@ -1,4 +1,4 @@
-## 420chan's API ![](../../misc/priority_shields/420chan.svg)
+## 420chan's API
 
 All URLs listed are clickable examples (watch for potentially NSFW content).
 

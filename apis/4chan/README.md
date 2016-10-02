@@ -1,4 +1,4 @@
-## 4chan's API ![](../../misc/priority_shields/4chan.svg)
+## 4chan's API
 
 All URLs listed are clickable examples (watch for potentially NSFW content).
 
