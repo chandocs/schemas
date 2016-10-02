@@ -1,0 +1,180 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "board": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Unique, static board identifier, minus the `/`s (or in [s4s]'s sake, the `[]`s, but internally they're both `/`s). Sometimes called a shortcode. Used in various API operations, as well as in normal URLs. (e.g. `https://boards.4chan.org/g/catalog`)"
+        },
+        "title": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The human-readable board title. Can contain unicode characters via codes like `\u1234`."
+        },
+        "ws_board": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "Whether or not the board is work-safe (`1` if `true`, `0` if `false`)."
+        },
+        "per_page": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Can be used in conjunction with `pages` to get the total number of alive threads at any given time."
+        },
+        "pages": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Can be used in conjunction with `per_page` to get the total number of alive threads at any given time."
+        },
+        "max_filesize": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "The maximum number of bytes a file can be. It's typically a few [mebibytes](https://en.wikipedia.org/wiki/Mebibyte)."
+        },
+        "max_webm_filesize": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "The maximum number of bytes a `.webm` can be. This overrides the max filesize, and is *usually* smaller. Still only a few [mebibytes](https://en.wikipedia.org/wiki/Mebibyte)."
+        },
+        "max_comment_chars": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "The maximum number of characters that can be in a post."
+        },
+        "max_webm_duration": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "The maximum number of seconds that can be in a `.webm`."
+        },
+        "bump_limit": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "The number of posts in a thread it takes to hit the bumb limit."
+        },
+        "image_limit": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "The number of images in a thread it takes to hit the bumb limit."
+        },
+        "cooldowns": {
+            "type": "object",
+            "properties": {
+                "threads": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "The number of seconds you must wait after making a thread to perform another action."
+                },
+                "replies": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "The number of seconds you must wait after making a reply to perform another action."
+                },
+                "images": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "The number of seconds you must wait after posting an image to perform another action."
+                },
+                "replies_intra": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "**[placeholder]**"
+                },
+                "images_intra": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "description": "**[placeholder]**"
+                }
+            },
+            "required": [
+                "threads",
+                "replies",
+                "images",
+                "replies_intra",
+                "images_intra"
+            ]
+        },
+        "meta_description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "**[placeholder]**"
+        },
+        "spoilers": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "Whether or not image spoilers are enabled."
+        },
+        "custom_spoilers": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "**[placeholder]**"
+        },
+        "is_archived": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "Whether or not threads are stored for a little while after they expire and are accessible through [/`b`/archive.json](operations/archive.md)."
+        },
+        "forced_anon": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "**[placeholder]**"
+        },
+        "user_ids": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "**[placeholder]**"
+        },
+        "code_tags": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "Whether or not `[code]` tags ([see rule #3 for /g/](https://www.4chan.org/rules#g4)) are acknowledged."
+        },
+        "webm_audio": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "**[placeholder]**"
+        },
+        "min_image_width": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "The minimum required width for all posted images."
+        },
+        "min_image_height": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "**[placeholder]**"
+        },
+        "oekaki": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "Whether or not the Oekaki applet is enabled."
+        },
+        "country_flags": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "**[placeholder]**"
+        },
+        "sjis_tags": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "**[placeholder]**"
+        },
+        "text_only": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "**[placeholder]**"
+        },
+        "require_subject": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "**[placeholder]**"
+        },
+        "math_tags": {
+            "$ref": "../../utils/bool_compact.json",
+            "description": "**[placeholder]**"
+        }
+    },
+    "required": [
+        "board",
+        "title",
+        "ws_board",
+        "per_page",
+        "pages",
+        "max_filesize",
+        "max_webm_filesize",
+        "max_comment_chars",
+        "max_webm_duration",
+        "bump_limit",
+        "image_limit",
+        "cooldowns",
+        "meta_description"
+    ]
+}

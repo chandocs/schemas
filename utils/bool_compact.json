@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "description": "A boolean represented as a number",
+    "type": "integer",
+    "minimum": 0,
+    "maximum": 1
+}
