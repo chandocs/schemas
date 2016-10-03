@@ -1,4 +1,4 @@
-# Chan API Documentation Project
+# Chan API Documentation Project [![Build Status](https://travis-ci.org/chandocs/schemas.svg?branch=master)](https://travis-ci.org/chandocs/schemas)
 
 ## About
 
