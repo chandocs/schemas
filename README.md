@@ -15,6 +15,14 @@ Each API title is also a link to our documentation on it, and the priority shiel
 * [vichan's API](apis/vichan/README.md) [![Normal priority](misc/priority_shields/normal.png)](https://github.com/vichan-devel/vichan-API/) (used by 8chan)
   - This has the same pitfalls of 4chan's API documentation because it's literally just a slightly modified fork of theirs. The lack of frequent updates is less important here though as we can at least tell when vichan's API changes because [it's open source](https://github.com/vichan-devel/vichan/).
 
+## Chat
+
+We have IRC channels to discuss pretty much anything related to chan APIs (and development in general):
+
+**General chat**: ``#chandocs @ irc.rizon.net`` ([webchat](http://qchat.rizon.net/?channels=chandocs))
+
+**Specific repo-related chat (has GitHub notifs.)**: ``#chandocs-git @ irc.rizon.net`` ([webchat](http://qchat.rizon.net/?channels=chandocs-git))
+
 ## License
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
