@@ -12,11 +12,11 @@ We can pair it with tools like [raml2`*`](https://github.com/raml2html/raml2obj)
 
 ### Okay, what is the actual plan then?
 
-We describe the APIs using [RAML 1.0](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md), and then we have [Travis CI](https://travis-ci.org/) ([documentation](https://docs.travis-ci.com/)) generate the documentation (and put it in the [`gh-pages` branch](https://github.com/r3c0d3x/chan-apis/tree/gh-pages)) whenever we push to the [`master` branch](https://github.com/r3c0d3x/chan-apis/tree/master) of the repo.
+We describe the APIs using [RAML 1.0](https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md), and then we have [Travis CI](https://travis-ci.org/) ([documentation](https://docs.travis-ci.com/)) generate the documentation (and put it in the [`chandocs.github.io` repo](https://github.com/chandocs/chandocs.github.io)) whenever we push to the [`master` branch](https://github.com/r3c0d3x/schemas/tree/master) of this repo.
 
 ### How are we generating documentation?
 
-We are currently using [raml2html](https://github.com/raml2html/raml2html) to generate HTML documentation to push into the [`chandocs.github.io` repo](https://github.com/chandocs/chandocs.github.io).
+We are currently using [raml2html](https://github.com/raml2html/raml2html) to generate HTML documentation to push into the `chandocs.github.io` repo using a setup similar to [this](https://stackoverflow.com/a/23284673).
 
 Eventually, we will want to use write something using [raml2obj](https://github.com/raml2html/raml2obj) to generate custom markdown to be used with [Jekyll](https://jekyllrb.com/docs/github-pages/).
 
