@@ -10,18 +10,26 @@ Each API title is also a link to our documentation on it, and the priority shiel
 
 * [420chan's API](apis/420chan/README.md) [![Low priority](misc/priority_shields/low.png)](http://api.420chan.org/)
   - Their documentation is detailed and lists example responses for each of their endpoints. It is good enough at the moment, but we should still have some documentation here for it in the future.
+  - Currently only being used by [420chan (`420chan.org`)](http://420chan.org/).
 * [4chan's API](apis/4chan/README.md) [![Normal priority](misc/priority_shields/normal.png)](https://github.com/4chan/4chan-api/)
   - While it does have some documentation, it's only for its `post` object. It lists multiple endpoints without going into detail about them, and doesn't seem to be updated very often.
-* [vichan's API](apis/vichan/README.md) [![Normal priority](misc/priority_shields/normal.png)](https://github.com/vichan-devel/vichan-API/) (used by 8chan)
+  - Currently only being used by [4chan (`4chan.org`)](https://4chan.org).
+* Lynxchan's API [![Low priority](misc/priority_shields/low.png)](https://gitgud.io/LynxChan/LynxChan/tree/master/doc)
+  - The documentation is good, but a little disorganized. Certainly better than 4chan and vichan though.
+  - Currently being used by [these sites](http://lynxhub.com/lynxchan/res/285.html).
+* [vichan's API](apis/vichan/README.md) [![Normal priority](misc/priority_shields/normal.png)](https://github.com/vichan-devel/vichan-API/)
   - This has the same pitfalls of 4chan's API documentation because it's literally just a slightly modified fork of theirs. The lack of frequent updates is less important here though as we can at least tell when vichan's API changes because [it's open source](https://github.com/vichan-devel/vichan/).
+  - Currently being used by:
+    - [8chan (`8ch.net`)](https://8ch.net/index.html)
+    - [`8ch.pl`](http://8ch.pl/)/[`vichan.net`](https://vichan.net/)
+    - [Polski vichan (`pl.vichan.net`)](https://pl.vichan.net/*/index.html)
+    - [(the testing site) `engine.vichan.net`](https://engine.vichan.net/)
 
 ## Chat
 
 We have IRC channels to discuss pretty much anything related to chan APIs (and development in general):
 
-**General chat**: ``#chandocs @ irc.rizon.net`` ([webchat](http://qchat.rizon.net/?channels=chandocs))
-
-**Specific repo-related chat (has GitHub notifs.)**: ``#chandocs-git @ irc.rizon.net`` ([webchat](http://qchat.rizon.net/?channels=chandocs-git))
+``#chandocs @ irc.rizon.net`` ([webchat](http://qchat.rizon.net/?channels=chandocs))
 
 ## License
 
