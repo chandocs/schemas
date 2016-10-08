@@ -9,16 +9,20 @@ We try to maintain comprehensive and up-to-date documentation for various chan A
 Each API title is also a link to our documentation on it, and the priority shields (**TODO: Create small wiki page about them**) will lead you to the site's original documentation.
 
 * [420chan's API](apis/420chan/README.md) [![Low priority](misc/priority_shields/low.png)](http://api.420chan.org/)
+  - Closed source.
   - Their documentation is detailed and lists example responses for each of their endpoints. It is good enough at the moment, but we should still have some documentation here for it in the future.
-  - Currently only being used by [420chan (`420chan.org`)](http://420chan.org/).
+  - Currently only being used by 420chan ([420chan.org](http://420chan.org/)).
 * [4chan's API](apis/4chan/README.md) [![Normal priority](misc/priority_shields/normal.png)](https://github.com/4chan/4chan-api/)
+  - [Closed source](https://www.4chan.org/faq#software) (leaked sometime between [2007-2010](https://web.archive.org/web/20101203013057/http://pastebin.com/4JVjS02b) and in [2014 (2012?)](https://web.archive.org/web/20140424114043id_/http://pastebin.com/a45dp3Q1) though).
   - While it does have some documentation, it's only for its `post` object. It lists multiple endpoints without going into detail about them, and doesn't seem to be updated very often.
-  - Currently only being used by [4chan (`4chan.org`)](https://4chan.org).
+  - Currently only being used by 4chan ([4chan.org](https://4chan.org)).
 * Lynxchan's API [![Low priority](misc/priority_shields/low.png)](https://gitgud.io/LynxChan/LynxChan/tree/master/doc)
+  - [Open source](https://gitgud.io/LynxChan/LynxChan/).
   - The documentation is good, but a little disorganized. Certainly better than 4chan and vichan though.
   - Currently being used by [these sites](http://lynxhub.com/lynxchan/res/285.html).
 * [vichan's API](apis/vichan/README.md) [![Normal priority](misc/priority_shields/normal.png)](https://github.com/vichan-devel/vichan-API/)
-  - This has the same pitfalls of 4chan's API documentation because it's literally just a slightly modified fork of theirs. The lack of frequent updates is less important here though as we can at least tell when vichan's API changes because [it's open source](https://github.com/vichan-devel/vichan/).
+  - [Open source](https://github.com/vichan-devel/vichan/).
+  - This has the same pitfalls of 4chan's API documentation because it's literally just a slightly modified fork of theirs. The lack of frequent updates is less important here though as we can at least tell when vichan's API changes because it's open source.
   - Currently being used by:
     - [8chan (`8ch.net`)](https://8ch.net/index.html)
     - [`8ch.pl`](http://8ch.pl/)/[`vichan.net`](https://vichan.net/)
